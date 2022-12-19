@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: rgb(236, 144, 142);
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  height: 100vh;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: white;
+}
+.ui_main {
+  height: 400px;
+  width: 50%;
+  padding: 0.8rem;
+  background-color: rgb(91, 100, 153);
+}
+.info {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  color: white;
+}
+.weather_info_img {
+  margin: 1rem;
+  height: 50px;
+  width: max-content;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.city {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search_conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_conatiner input {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  outline: none;
+}
+.temp_wind {
+  display: flex;
+  justify-content: space-around;
+}
+.temp {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.wind {
+  padding: 0.5rem;
+  margin: 1rem;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ui_main">
+        <div
+          class="heading"
+          style="
+            padding: 0.5rem;
+            font-size: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+          "
+        >
+          Check Wheather !
+        </div>
+        <form class="search_conatiner">
+          <div class="search">
+            <input type="text" placeholder="Enter city" />
+          </div>
+
+          <!-- <input type="submit" value="Search" /> -->
+        </form>
+        <div class="city">
+          <p>City :</p>
+          <p class="city_name">-</p>
+        </div>
+        <div class="info">
+          <div class="description_heading">
+            <p>Description :</p>
+          </div>
+          <div class="weather_info_img">
+            <p class="weatherInfo">-</p>
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="temp_wind">
+          <div class="temp">
+            <p>Temp :</p>
+            <p class="temp_desc">-</p>
+          </div>
+          <div class="wind">
+            <p>Wind speed :</p>
+            <p class="wind_desc">-</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
